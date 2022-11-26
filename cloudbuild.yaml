@@ -29,4 +29,5 @@ steps:
     env:
       - CLOUDSDK_COMPUTE_REGION=$_REGION
       - CLOUDSDK_CONTAINER_CLUSTER=$_CLUSTER
+      - PROJECT_ID=$_PROJECTID
       - KUBECONFIG=/workspace/.kube/config
